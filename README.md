@@ -33,7 +33,7 @@ Welcome to my calculator project! This project is a simple yet functional calcul
 
 ## Screenshots
 
-![Screenshot](Image/calculator.png))
+![Screenshot](Image/calculator.png)
 
 Developer : Shiv Shah <br>
 
