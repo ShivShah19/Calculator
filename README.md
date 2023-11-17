@@ -33,7 +33,8 @@ Welcome to my calculator project! This project is a simple yet functional calcul
 
 ## Screenshots
 
-![Screenshot](`https://github.com/ShivShah19/Calculator/blob/main/Image/Calculator.png`)
+![Screenshot](Image/calculator.png)
+`https://github.com/ShivShah19/Calculator/blob/main/Image/Calculator.png`
 
 Developer : Shiv Shah <br>
 
