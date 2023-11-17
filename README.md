@@ -25,12 +25,6 @@ Welcome to my calculator project! This project is a simple yet functional calcul
    ```
 2. Open index.html in your preferred web browser.
 
-## Usage
-
-1. To add a task, Enter your task details, set the priority, and press Enter.
-2. To filter tasks based on priorityof a task, completion of task, use the filter options available and filter task on run time.
-3. Mark tasks as complete by checking on complete button next to each task.
-
 ## Screenshots
 
 ![Screenshot](Image/calculator.png)
