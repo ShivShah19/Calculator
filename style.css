@@ -69,6 +69,15 @@ body {
     background-color: red;
 }
 
+.calculator form .equal:hover {
+    background-color: red;
+}
+
+.calculator form .special {
+    /* font-size: 1.5em; */
+    color: rgba(0, 255, 255, 0.858);
+}
+
 @media (max-width: 768px) {
     .calculator {
         padding: 0.8em;
