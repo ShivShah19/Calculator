@@ -27,7 +27,7 @@ Welcome to my calculator project! This project is a simple yet functional calcul
 
 ## Screenshots
 
-![Screenshot](Image/Screenshot%202023.png)
+![Screenshot](https://raw.githubusercontent.com/ShivShah19/Calculator/main/Image/Calculator.png)
 `https://github.com/ShivShah19/Calculator/blob/main/Image/Calculator.png`
 
 Developer : Shiv Shah <br>
