@@ -9,15 +9,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    margin: 0;
+    height: 100vh;
     background-color: #e3f9ff;
 }
 
 .title {
     text-align: center;
     font-size: 3em;
-    margin: .5em 0;
+    margin: 0.5em 0;
     font-weight: 600;
 }
 
@@ -25,8 +24,9 @@ body {
     background-color: #3a4452;
     padding: 1.2em;
     border-radius: 10px;
-    max-width: 4200px;
     width: 100%;
+    max-width: 420px;
+    /* Adjusted max-width */
 }
 
 .calculator form input {
@@ -34,18 +34,24 @@ body {
     height: 60px;
     border-radius: 10px;
     font-size: 1.3em;
-    box-shadow: -8px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: -8px -5px 12px #ffffff1a, 5px 5px 12px rgba(0, 0, 0, 0.5);
     background-color: transparent;
     color: #ffffff;
     border: none;
     outline: none;
-    margin: 10px;
+    text-align: center;
+    margin: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.calculator form input:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+.calculator form input:nth-child(4n) {
+    font-size: 2em;
+}
+
+.calculator form input[type=button]:hover {
+    background-color: #656b72ad;
+    box-shadow: -8px -5px 10px #ffffff1a, -5px -5px 10px #00000080;
 }
 
 .calculator form .input {
@@ -56,29 +62,26 @@ body {
     padding-right: 10px;
     border-radius: 5px;
     text-align: right;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 10px #00000080;
+    background-color: #ffffffed;
+    color: black;
 }
 
-.calculator form input:active {
-    transform: translate(1px, 1px);
-    box-shadow: 0px 0px rgba(0, 0, 0, 0.8);
-    transition: transform 0.1s, box-shadow 0.1s;
-}
-
-.calculator form .equal {
+.calculator form #equal {
     background-color: red;
+    color: #ffffff;
 }
 
-.calculator form .equal:hover {
-    background-color: red;
+.calculator form #equal:hover {
+    background-color: #ff2828;
+    /* Adjusted hover color for better visibility */
 }
 
 .calculator form .special {
-    /* font-size: 1.5em; */
-    color: rgba(0, 255, 255, 0.858);
+    color: rgb(0, 255, 255);
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .calculator {
         padding: 0.8em;
     }
@@ -90,6 +93,7 @@ body {
 
     .calculator form .input {
         width: calc(100% - 1em);
+        height: 8vh;
         margin: 5px;
         padding: 8px;
         font-size: 1.2em;
