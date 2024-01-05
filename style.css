@@ -83,12 +83,12 @@ body {
 
 @media screen and (max-width: 768px) {
     .calculator {
-        padding: 0.8em;
+        padding: 0.5em;
     }
 
     .calculator form input {
         font-size: 1em;
-        margin: 0.5em;
+        margin: 0;
     }
 
     .calculator form .input {
